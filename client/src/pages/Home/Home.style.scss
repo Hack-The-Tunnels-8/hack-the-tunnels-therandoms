@@ -1,6 +1,15 @@
 .home-page {
+
+  @keyframes gif {
+    from {color: rgb(0, 255, 234);}
+    to {color: rgb(130, 57, 255);}
+  }
+
   &__title {
-    color: red;
+    animation-name: gif;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
     font-family: Arial, Helvetica, sans-serif;
   }
 
