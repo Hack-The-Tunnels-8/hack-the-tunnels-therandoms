@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <Link to="/">Store Logo</Link>
+      <Link to="/"><img className="navbar__image" src="https://media.discordapp.net/attachments/519295935315050521/1106731452814598226/IMG_8385.gif" /></Link>
       </div>
       <div className="navbar__account">
         {loggedIn() === false ? (

@@ -2,4 +2,12 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+
+  &__image {
+    width: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
 }
