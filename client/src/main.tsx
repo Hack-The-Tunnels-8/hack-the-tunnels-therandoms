@@ -44,9 +44,10 @@ const router = createBrowserRouter([
     element: <CreateProduct />,
   },
   {
-    path: "*",
+    path: "/404",
     element: <div>404</div>,
   },
+  
 ]);
 
 export function Root() {
