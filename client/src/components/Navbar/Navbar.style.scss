@@ -4,10 +4,55 @@
   justify-content: space-between;
 
   &__image {
-    width: 2rem;
+    width: 5rem;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0%;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
-
+  &__login {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    font-family: Helvetica;
+    color: purple;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  &__signup {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+    position: fixed;
+    top: 2%;
+    right: 7%;
+    font-family: Helvetica;
+    color: purple;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  &__logout {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    font-family: Helvetica;
+    color: purple;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
 }
