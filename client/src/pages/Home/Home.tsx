@@ -6,6 +6,11 @@ import "./Home.style.scss";
 
 function Home() {
   const [products, setProducts] = useState([]);
+  const [search, setSearch] = useState("");
+
+  const handleChange = (event) => {
+    setSearch(event.target.value);
+  }
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,7 +26,8 @@ function Home() {
       <div className="home-page">
         <h1 className="home-page__title">Home</h1>
         <h2>Products:</h2>
-        <input type="text" id="search" name="search" />
+        <input type="text" id="search" name="search" onChange={handleChange} />
+        <h2>Search Content: {search}</h2>
         <div className="home-page__products">
           {products.map((product) => (
             <Link to={`/products/${product.id}`} key={`${product.id}`}>
