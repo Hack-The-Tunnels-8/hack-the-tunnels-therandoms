@@ -26,6 +26,12 @@ function Home() {
       <div className="home-page">
         <button className = "LightMode">Light Mode</button>
         <button className = "DarkMode">Dark Mode</button>
+        <script>
+        function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+       </script>
         <h1 className="home-page__title">Home</h1>
         <h2>Products:</h2>
         <p className="home-page__title"> Hello World </p>
