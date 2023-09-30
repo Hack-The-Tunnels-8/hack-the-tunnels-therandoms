@@ -1,15 +1,20 @@
 .home-page {
   &__title {
     color: red;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   &__products {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 
     a {
       text-decoration: none;
       color: inherit;
     }
   }
+
+  
+
 }
