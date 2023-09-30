@@ -26,8 +26,9 @@ function Home() {
       <div className="home-page">
         <h1 className="home-page__title">Home</h1>
         <h2>Products:</h2>
+        <p className="home-page__title"> Hello World </p>
         <input type="text" id="search" name="search" onChange={handleChange} />
-        <h2>Search Content: {search}</h2>
+        <h2 className="home-page__products">Search Content: {search}</h2>
         <div className="home-page__products">
           {products.map((product) => (
             <Link to={`/products/${product.id}`} key={`${product.id}`}>
