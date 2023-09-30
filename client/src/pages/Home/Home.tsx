@@ -24,6 +24,8 @@ function Home() {
   return (
     <Page>
       <div className="home-page">
+        <button className = "LightMode">Light Mode</button>
+        <button className = "DarkMode">Dark Mode</button>
         <h1 className="home-page__title">Home</h1>
         <h2>Products:</h2>
         <p className="home-page__title"> Hello World </p>
